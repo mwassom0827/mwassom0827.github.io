@@ -22,7 +22,7 @@
 
 
 
-  <section id="about">
+  <section id="about" class="customsection">
     <h2 id="abouttitle">About Me</h2>
     <div id="abouttext">
      <p style="text-indent: 25px;">
@@ -36,10 +36,44 @@
     </div>
   </section>
 
-  <section id="projects">
+  <section id="previousexperience" class="customsection">
+    <h2 id="experienceheader">Previous Work Experience</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">CyberNavigator</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Chicago Public Library - Chicago</h6>
+                    <p class="card-text">Jun 2022 - Dec 2023</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Developed and curated digital-literacy classes to teach essential computer skills, internet safety, and technology literacy to diverse community members</li>
+                        <li class="list-group-item">Provided comprehensive software and hardware support to library patrons, offering troubleshooting assistance and guidance on software applications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">IT Operations Intern</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Jesuits Midwest - Chicago</h6>
+                    <p class="card-text">Dec 2023 - Present</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Assisted in troubleshooting and resolving software issues for office employees, ensuring efficient and uninterrupted workflow</li>
+                        <li class="list-group-item">Provided hardware support, including diagnosing and repairing computer hardware, peripherals, and mobile devices, to maintain optimal functionality and performance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <section id="projects" class="customsection">
     <h2 id="projectheader">My Projects</h2>
 
-    <!-- Add your projects here with descriptions, links, and images. -->
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">
         <h2 class="accordion-header">
@@ -50,10 +84,13 @@
         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
           <div class="accordion-body">
             <strong> During my Junior year I took a class called IoT Netowrking (CSE321) where we developed a robot capable of manuevering a room using ultrasound radars. We used the radars to detect surfaces infront of the robot. When the distance of the surface hit a certain threshold, it would backup for 1 second, turn left, and continue its journey. Using this simple process its able to manuver classrooms with ease.</Strong>
+              <!--<img src="generic-image-placeholder.jpg" alt="Self Driving Robot">-->
+
+
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div class="accordion-item" class="customsection">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
             Stock Market Simulator
@@ -61,7 +98,10 @@
         </h2>
         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
           <div class="accordion-body">
-            <strong> During my Senior year I took a class called Object-Oriented Software Development (SE350) where I developed a small scale simulation for stock markets. You input how many trades you want done, and itll auto-generate stocks and simulate a market.</Strong>
+            <strong> During my Senior year I took a class called Object-Oriented Software Development (SE350) where I developed a small scale simulation for stock markets. You input how many trades you want done, and it'll auto-generate stocks and simulate a market.</strong>
+            <div style="text-align: center;">
+              <a href="SE350.zip" download>Download Project</a>
+            </div>
           </div>
         </div>
       </div>
@@ -74,13 +114,17 @@
         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
           <div class="accordion-body">
             <strong> Nova Initiative is a overhead space shooter developed by me and two other students Cass Suarez and Ian Stocker. We took inspiration from the classic game 1942 and gave it a twist of it being a space shooter. We included one level along with a boss fight at the end. I handled character design and music as well as their implementations. </Strong>
+              
+              <div style="text-align: center;">
+                <a href="NovaInitiative.zip" download>Download Nova Initiative</a>
+              </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="customsection">
     <h2>Contact Me</h2>
     <p>
       You can reach me at: mwassom@depaul.com

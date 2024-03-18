@@ -14,8 +14,8 @@ body {
   
   header {
     text-align: center;
-    background-color: #58545483;
-    color: #fff;
+    background-color: #58545434;
+    /*color: #fff;*/
     padding: 1rem;
   }
   
@@ -35,7 +35,7 @@ body {
   }
   
   nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
   }
   
@@ -51,14 +51,9 @@ body {
     padding: 2rem;
   }
 
-  .accordion-body{
-    background-color: #58545434;
+  
 
-  }
-  .accordion-item{
-    background-color: #58545434;
-
-  }
+  
   #map-container{
     padding-bottom: 30;
   }
@@ -66,6 +61,25 @@ body {
   textarea{
     resize: none;
   }
+
+
+
+
+  .customsection {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the opacity value (0.8) to change the transparency */
+  }
+  
+  .customsection h2 {
+    border-bottom: 2px solid #000; /* Add a border to separate the section header from the content */
+  }
+
+
+
+
+
+
+
+
   footer {
     text-align: center;
     padding: 1rem;
